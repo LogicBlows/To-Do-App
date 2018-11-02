@@ -1,0 +1,149 @@
+
+.master-div { 
+background-image: url("lion.jpg");
+height:100vh;
+background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.header-div{
+
+/*background-color: red;*/
+font-weight: bolder;
+color: #6B04BA;
+width:auto;
+text-align: center;
+height:30%;
+border:inset 5px #855B55;
+font-family: 'Spicy Rice', cursive;
+
+}
+
+
+.to-do-creator{
+
+/*	margin:1%;
+*/
+}
+
+
+
+.dynamic-div-class
+{
+font-family: 'Mali', cursive;
+text-align: center;
+background-color:#B09B9B; 
+padding: 5PX;
+width: auto;
+font-weight: bolder;
+color: #6B04BA ;
+font-size: 20PX;
+border : 2px solid #300F00;
+  animation-duration: 3s;
+  animation-name: slidein;
+margin: 2px;
+
+}
+
+.dynamic-div-class:hover{
+
+
+}
+
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+
+
+#add-task-button {
+
+	background-color: #6B04BA;
+	border-radius: 10%
+	border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+font-family: 'Spicy Rice', cursive;
+    cursor: pointer;
+
+}
+
+#task-input-box{
+
+border-radius: 10%
+	border: none;
+    color: black;
+    padding: 10px 32px 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 4px 2px;
+    font-weight: normal;
+    font-family: 'Mali', cursive;
+    outline: none;
+    width: 60%;
+}
+
+
+#task-input-box:focus
+{
+
+border:3px solid #00000;
+
+
+}
+
+#task-input-box:hover{
+
+/*background-color: #E7E7E8;
+*/
+/*background-color: #A68682;*/
+
+background-color: #B09B9B;
+}
+
+
+.del-button{
+
+    background-color: #2C0140;
+    border: 2px;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    margin :2px;
+}
+
+
+.edit-button{
+ background-color: #2C0140;
+    border: 2px;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+.btn-span{
+
+
+
+
+}
