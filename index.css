@@ -1,10 +1,64 @@
 
+*{
+
+    margin:0; 
+    padding:0;
+}
+
+
+/*body 
+{
+    margin: 0px;
+    background-color: rgb(56,220, 250);
+    overflow: hidden;
+}
+*/
+#canvas{
+
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+z-index:-1;
+
+
+}
+
 .master-div { 
-background-image: url("lion.jpg");
-height:100vh;
+/*background-image: url("lion.jpg");
+*/height:100vh;
 background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.menu-div{
+width:auto;
+margin: 0 0 5px 0;
+padding:2px;
+border: ;
+height: 60px;
+background-color: #A208C4;
+text-align: left;
+background-color: #DED2C8;
+opacity: 0.9;
+}
+
+#nav-bar{
+
+    width: 10px;
+    color:red;
+    font-size: w3-large;
+    color:white;
+
+}
+
+#nav:hover{
+
+cursor: pointer;
 
 }
 
@@ -15,18 +69,87 @@ font-weight: bolder;
 color: #6B04BA;
 width:auto;
 text-align: center;
-height:30%;
-border:inset 5px #855B55;
+/*height:40%;
+*/border:inset 5px #855B55;
 font-family: 'Spicy Rice', cursive;
 
 }
 
 
+
+}
+
+.date-div{
+
+    text-align: center;
+
+    font-weight: bolder;
+    font-size: 20px
+}
+
+.task-name{
+
+/*    border: none;
+border-color: transparent;
+font-family: 'Spicy Rice', cursive;
+font-weight: bolder;
+font-size: 30px;
+text-align:center;
+color:#6B04BA
+*/
+
+ 
+/* Firefox/Opera/Safari/Chrome. Basically all the freaking sweet browsers. */
+/* opacity:.4; 
+*//* IE8 */
+/* -ms-filter:"alpha(opacity=40)"; 
+*//* IE6/IE7 */
+/*filter:alpha(opacity=40);    
+*/
+border: none;
+border-color: transparent;
+text-align: center;
+text-decoration: none;
+font-size: 30px;
+font-weight: bolder;
+font-family: 'Spicy Rice', cursive;
+outline: none;
+width: 60%;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #6B04BA;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #6B04BA;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #6B04BA;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #6B04BA;
+}
+
+
+.task-name{
+    max-width: auto;
+}
+
+
+.task-name:focus
+{
+
+    border: none;
+border-color: transparent;
+
+}
+
 .to-do-creator{
 
 /*	margin:1%;
 */
-}
+/*height: 60%
+*/}
 
 
 
@@ -37,13 +160,14 @@ text-align: center;
 background-color:#B09B9B; 
 padding: 5PX;
 width: auto;
-font-weight: bolder;
+font-weight: bold;
 color: #6B04BA ;
 font-size: 20PX;
 border : 2px solid #300F00;
   animation-duration: 3s;
   animation-name: slidein;
 margin: 2px;
+overflow: hidden;
 
 }
 
@@ -128,6 +252,7 @@ background-color: #B09B9B;
     font-size: 16px;
     cursor: pointer;
     margin :2px;
+
 }
 
 
@@ -141,9 +266,15 @@ background-color: #B09B9B;
 
 }
 
+.edit-button:hover{
+    background-color: #9D0AF7;
+}
+
+.del-button:hover{
+
+    background-color: #9D0AF7;
+}
+
 .btn-span{
-
-
-
 
 }
